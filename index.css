@@ -1,17 +1,11 @@
 
-/* =========================
-   RESET
-========================= */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* =========================
-   BODY
-========================= */
+
 
 body{
     background: linear-gradient(135deg,#667eea,#764ba2);
@@ -20,9 +14,6 @@ body{
     color: white;
 }
 
-/* =========================
-   HEADER
-========================= */
 
 header{
     position: sticky;
@@ -46,9 +37,6 @@ header nav h1{
     letter-spacing: 1px;
 }
 
-/* =========================
-   SEARCH FORM
-========================= */
 
 form{
     display: flex;
@@ -82,10 +70,6 @@ form button:hover{
     box-shadow: 0 10px 20px rgba(255,71,87,0.4);
 }
 
-/* =========================
-   RECIPE CONTAINER
-   ONE CARD BELOW ANOTHER
-========================= */
 
 .recipe-container{
     width: 90%;
@@ -96,9 +80,6 @@ form button:hover{
     gap: 30px;
 }
 
-/* =========================
-   RECIPE CARD
-========================= */
 
 .recipe{
     background: white;
@@ -117,9 +98,6 @@ form button:hover{
     box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
 
-/* =========================
-   IMAGE
-========================= */
 
 .recipe img{
     width: 320px;
@@ -134,17 +112,12 @@ form button:hover{
     transform: scale(1.03);
 }
 
-/* =========================
-   CONTENT
-========================= */
 
 .recipe-content{
     flex: 1;
 }
 
-/* =========================
-   TITLE
-========================= */
+
 
 .recipe h2{
     font-size: 30px;
@@ -152,9 +125,6 @@ form button:hover{
     color: #222;
 }
 
-/* =========================
-   INFO
-========================= */
 
 .recipe p{
     margin-bottom: 10px;
@@ -167,9 +137,6 @@ form button:hover{
     color: #e63946;
 }
 
-/* =========================
-   HEADINGS
-========================= */
 
 .recipe h3{
     margin-top: 20px;
@@ -178,9 +145,6 @@ form button:hover{
     font-size: 22px;
 }
 
-/* =========================
-   INGREDIENTS
-========================= */
 
 .recipe ul{
     padding-left: 20px;
@@ -192,9 +156,7 @@ form button:hover{
     line-height: 1.6;
 }
 
-/* =========================
-   INSTRUCTIONS
-========================= */
+
 
 .instructions{
     color: #444;
@@ -204,7 +166,7 @@ form button:hover{
     padding-right: 10px;
 }
 
-/* Scrollbar */
+
 
 .instructions::-webkit-scrollbar{
     width: 6px;
@@ -215,9 +177,7 @@ form button:hover{
     border-radius: 10px;
 }
 
-/* =========================
-   BUTTON
-========================= */
+
 
 .view-btn{
     margin-top: 20px;
@@ -236,9 +196,6 @@ form button:hover{
     transform: scale(1.05);
 }
 
-/* =========================
-   LOADING TEXT
-========================= */
 
 .recipe-container h2{
     text-align: center;
@@ -259,9 +216,6 @@ form button:hover{
     }
 }
 
-/* =========================
-   MODAL
-========================= */
 
 .recipe-details{
     display: none;
@@ -305,9 +259,6 @@ form button:hover{
     transform: rotate(90deg);
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media(max-width: 900px){
 
